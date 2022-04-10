@@ -1,11 +1,10 @@
-import NavMenu from './components/NavMenu';
+import React from 'react';
 
-function App() {
+export default function App() {
   return (
     <>
-    <NavMenu/>
+      <h1>Welcome to react portfolio Project</h1>
+      <h3>-Shaif Arfan</h3>
     </>
   );
 }
-
-export default App;
