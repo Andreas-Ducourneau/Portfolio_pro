@@ -57,11 +57,11 @@ export default function Footer() {
     <FooterStyle>
       <div className="container">
         <div className="footer__col1">
-          <h1 className="footer__col1__title">Ayan Khan</h1>
+          <h1 className="footer__col1__title">Andréas Ducourneau</h1>
           <PText>
-            A freelance web designer and developer from Chittagong, Bangladesh.
-            I always make websites that have unique designs and also has a good
-            performance rate.
+            Etudiant ingénieur Informatique en cinquième année à
+            CESI Bordeaux, je recherche un contrat de professionnalisation
+            dans le domaine du développement.
           </PText>
         </div>
         <div className="footer__col2">
@@ -96,15 +96,15 @@ export default function Footer() {
             heading="Contact Info"
             links={[
               {
-                title: '+88012312',
+                title: '06 17 91 76 98',
                 path: 'tel:+88012312',
               },
               {
-                title: 'webcifar@gmail.com',
-                path: 'mailto:webcifar@gmail.com',
+                title: 'andreas.ducourneau@viacesi.fr',
+                path: 'mailto:andreas.ducourneau@viacesi.fr',
               },
               {
-                title: 'GEC Circle, Chittagong, Bangladesh',
+                title: 'CESI Bordeaux, Bordeaux, France',
                 path: 'http://google.com/maps',
               },
             ]}
@@ -115,16 +115,12 @@ export default function Footer() {
             heading="social Links"
             links={[
               {
-                title: 'Facebook',
-                path: 'http://facebook.com',
+                title: 'LinkedIn',
+                path: 'https://www.linkedin.com/in/andr%C3%A9as-ducourneau-4b479219a/',
               },
               {
-                title: 'Twitter',
-                path: 'http://twitter.com',
-              },
-              {
-                title: 'Instagram',
-                path: 'http://instagram.com',
+                title: 'GitHub',
+                path: 'https://github.com/Andreas-Ducourneau',
               },
             ]}
           />
