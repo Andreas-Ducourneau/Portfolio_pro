@@ -5,10 +5,11 @@ import PText from './PText';
 
 const FooterStyle = styled.div`
   background-color: var(--deep-dark);
-  padding-top: 10rem;
+  padding-top: 6rem;
   .container {
     display: flex;
     gap: 3rem;
+    padding-bottom: 3rem;
   }
   .footer__col1 {
     flex: 2;
@@ -126,16 +127,7 @@ export default function Footer() {
           />
         </div>
       </div>
-      <div className="copyright">
-        <div className="container">
-          <PText>
-            © 2021 - Ayan Khan | Designed By{' '}
-            <a target="_blank" rel="noreferrer" href="http://webcifar.com">
-              web cifar
-            </a>{' '}
-          </PText>
-        </div>
-      </div>
+
     </FooterStyle>
   );
 }
