@@ -6,7 +6,7 @@ import Contact from './pages/Contact';
 import Home from './pages/Home';
 import Projects from './pages/Projects';
 import Footer from './components/Footer';
-import ScrollToTop from './components/ScrollToTop';
+import SmoothScroll from './components/SmoothScroll';
 
 
 export default function App() {
@@ -14,22 +14,23 @@ export default function App() {
     <>
       <Router>
         <NavMenu />
-        <ScrollToTop />
-        <Switch>
-          <Route path="/about">
-            <About />
-          </Route>
-          <Route path="/contact">
-            <Contact />
-          </Route>
-          <Route path="/projects">
-            <Projects />
-          </Route>
-          <Route path="/">
-            <Home />
-          </Route>
-        </Switch>
-        <Footer />
+        <SmoothScroll>
+          <Switch>
+            <Route path="/about">
+              <About />
+            </Route>
+            <Route path="/contact">
+              <Contact />
+            </Route>
+            <Route path="/projects">
+              <Projects />
+            </Route>
+            <Route path="/">
+              <Home />
+            </Route>
+          </Switch>
+          <Footer />
+        </SmoothScroll>
       </Router>
     </>
   );
