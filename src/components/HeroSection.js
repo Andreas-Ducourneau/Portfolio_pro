@@ -157,9 +157,9 @@ export default function HeroSection() {
           </div>
           <div className="hero__info">
             <PText>
-              I am working as a freelance web designer and developer for 4
-              years. I love to design and make new web experiences for the
-              people.
+              Etudiant ingénieur Informatique en cinquième année à
+              CESI Bordeaux, je recherche un contrat de professionnalisation
+              dans le domaine du développement.
             </PText>
             <Button btnText="see my works" btnLink="/projects" />
           </div>
