@@ -142,19 +142,19 @@ export default function About() {
               />
             </div>
             <div className="about__info__item">
-              <h1 className="about__info__heading">Experiences</h1>
+              <h1 className="about__info__heading">Formation</h1>
 
               <AboutInfoItem
-                title="2010-2012"
-                items={['junior developer at web Cifar']}
+                title="2020-2023"
+                items={['Cycle Ingénieur spécialité informatique | Bac+5']}
               />
               <AboutInfoItem
-                title="2012-2016"
-                items={['Front end developer at web Cifar ']}
+                title="2018-2020"
+                items={[' Cycle préparatoire en informatique - Pédagogie Active | Bac +2']}
               />
               <AboutInfoItem
-                title="2016-"
-                items={['Freelance web Developer']}
+                title="2018"
+                items={['Lycée Jules Supervielle - Oloron St-Marie']}
               />
             </div>
           </div>
