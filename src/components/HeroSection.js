@@ -47,7 +47,7 @@ const HeroStyles = styled.div`
     flex-direction: column;
     gap: 2rem;
     position: absolute;
-    bottom: 20px;
+    bottom: 70px;
     width: 50px;
   }
   .hero__social {
@@ -170,24 +170,6 @@ export default function HeroSection() {
             </div>
             <div className="hero__social__text">
               <ul>
-                <li>
-                  <a
-                    href="http://facebook.com/webcifar"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    FB
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="http://twitter.com/webcifar"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    TW
-                  </a>
-                </li>
                 <li>
                   <a
                     href="http://isntagram.com/web_cifar"
