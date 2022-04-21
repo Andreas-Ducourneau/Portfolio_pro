@@ -161,7 +161,7 @@ export default function HeroSection() {
               CESI Bordeaux, je recherche un contrat de professionnalisation
               dans le domaine du développement.
             </PText>
-            <Button btnText="see my works" btnLink="/projects" />
+            <Button btnText="Voir mon travail" btnLink="/projects" />
           </div>
           <div className="hero__social">
             <div className="hero__social__indicator">
@@ -172,16 +172,16 @@ export default function HeroSection() {
               <ul>
                 <li>
                   <a
-                    href="http://isntagram.com/web_cifar"
+                    href="https://github.com/Andreas-Ducourneau"
                     target="_blank"
                     rel="noreferrer"
                   >
-                    IG
+                    GIT
                   </a>
                 </li>
                 <li>
                   <a
-                    href="http://webcifar.com"
+                    href="https://www.linkedin.com/in/andr%C3%A9as-ducourneau-4b479219a/"
                     target="_blank"
                     rel="noreferrer"
                   >
