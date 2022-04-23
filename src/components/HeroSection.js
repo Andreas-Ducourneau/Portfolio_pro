@@ -1,9 +1,8 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import styled from "styled-components";
-import HeroImg from "../assets/images/hero.png";
+import oim from "../assets/images/Andréas2.jpg";
 import Button from "./Button";
-import SocialMediaArrow from "../assets/images/social-media-arrow.svg";
 import ScrollDownArrow from "../assets/images/scroll-down-arrow.svg";
 import { Github, LinkedIn } from "../assets/data/AllSvgs";
 import PText from "./PText";
@@ -162,7 +161,7 @@ export default function HeroSection() {
             <span className="hero__name">Andréas Ducourneau</span>
           </h1>
           <div className="hero__img">
-            <img src={HeroImg} alt="" />
+            <img src={oim} alt="" />
           </div>
           <div className="hero__info">
             <PText>
@@ -170,7 +169,7 @@ export default function HeroSection() {
               Bordeaux, je recherche un contrat de professionnalisation dans le
               domaine du développement.
             </PText>
-            <Button btnText="Voir mon travail" btnLink="/projects" />
+            <Button btnText="Curriculum Vitae" btnLink="/projects" />
           </div>
           <div className="hero__social">
             <div className="hero__social__text">
@@ -181,7 +180,7 @@ export default function HeroSection() {
                     target="_blank"
                     to={{ pathname: "https://github.com/Andreas-Ducourneau" }}
                   >
-                    <Github width={30} height={30} />
+                    <Github width={35} height={35} />
                   </NavLink>
                 </li>
                 <li>

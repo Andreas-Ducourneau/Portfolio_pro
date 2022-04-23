@@ -1,8 +1,12 @@
-import React from 'react';
-import { MdDesktopMac, MdCode, MdPhonelinkSetup } from 'react-icons/md';
-import styled from 'styled-components';
-import SectionTitle from './SectionTitle';
-import ServicesSectionItem from './ServicesSectionItem';
+import React from "react";
+import {
+  MdHowToReg,
+  MdOutlineChangeCircle,
+  MdOutlineRule,
+} from "react-icons/md";
+import styled from "styled-components";
+import SectionTitle from "./SectionTitle";
+import ServicesSectionItem from "./ServicesSectionItem";
 
 const ServicesItemsStyles = styled.div`
   padding: 10rem 0;
@@ -27,22 +31,22 @@ export default function ServicesSection() {
   return (
     <ServicesItemsStyles>
       <div className="container">
-        <SectionTitle subheading="What i will do for you" heading="Services" />
+        <SectionTitle subheading="Ce qui résume mes" heading="Soft Skills" />
         <div className="services__allItems">
           <ServicesSectionItem
-            icon={<MdDesktopMac />}
-            title="web design"
-            desc="I do ui/ux design for the website that helps website to get a unique look."
+            icon={<MdHowToReg />}
+            title="Rigueur"
+            desc="Je tiens toujours à m'engager avec beaucoup de rigueur dans tous mes projets. "
           />
           <ServicesSectionItem
-            icon={<MdCode />}
-            title="web dev"
-            desc="I also develop the websites. I create high performance website with blazing fast speed."
+            icon={<MdOutlineRule />}
+            title="Pragmatisme"
+            desc="Lors de mes différentes tâches je m'organise toujours avec pragmatisme. "
           />
           <ServicesSectionItem
-            icon={<MdPhonelinkSetup />}
-            title="app Dev"
-            desc="I develop mobile application. I create mobile app with eye catching ui. "
+            icon={<MdOutlineChangeCircle />}
+            title="Changement"
+            desc="Lorsqu'un j'interviens dans un projet je me tiens prêt aux changements et à mon adaptabilité. "
           />
         </div>
       </div>
