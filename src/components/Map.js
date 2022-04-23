@@ -1,13 +1,13 @@
-import React from 'react';
-import styled from 'styled-components';
-import MapImg from '../assets/images/map.png';
-import PText from './PText';
+import React from "react";
+import styled from "styled-components";
+import MapImg from "../assets/images/map1.png";
+import PText from "./PText";
 
 const MapStyles = styled.div`
   background: url(${MapImg}) no-repeat;
   background-position: center;
   background-size: cover;
-  min-height: 400px;
+  min-height: 500px;
   .container {
     position: relative;
     min-height: 400px;
@@ -48,7 +48,7 @@ export default function Map() {
     <MapStyles>
       <div className="container">
         <div className="map__card">
-          <h3 className="map__card__heading">Here is me</h3>
+          <h3 className="map__card__heading">Me voici</h3>
           <PText>CESI Ecole Ingénieur, Bordeaux, France</PText>
           <a
             className="map__card__link"
