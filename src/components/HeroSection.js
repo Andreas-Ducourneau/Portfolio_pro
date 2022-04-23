@@ -86,7 +86,6 @@ const HeroStyles = styled.div`
         a {
           display: inline-block;
           font-size: 1.6rem;
-          transform: rotate(-90deg);
           letter-spacing: 5px;
           margin-bottom: 2rem;
         }
@@ -148,7 +147,8 @@ const HeroStyles = styled.div`
 
 const Line = styled.div`
   width: 2px;
-  height: 8rem;
+  margin-left: 25px;
+  height: 10rem;
   background-color: #ffffff;
 `;
 
@@ -173,10 +173,6 @@ export default function HeroSection() {
             <Button btnText="Voir mon travail" btnLink="/projects" />
           </div>
           <div className="hero__social">
-            <div className="hero__social__indicator">
-              <p>Follow</p>
-              <img src={SocialMediaArrow} alt="icon" />
-            </div>
             <div className="hero__social__text">
               <ul>
                 <li>
@@ -185,7 +181,7 @@ export default function HeroSection() {
                     target="_blank"
                     to={{ pathname: "https://github.com/Andreas-Ducourneau" }}
                   >
-                    <Github width={25} height={25} />
+                    <Github width={30} height={30} />
                   </NavLink>
                 </li>
                 <li>
@@ -197,7 +193,7 @@ export default function HeroSection() {
                         "https://www.linkedin.com/in/andr%C3%A9as-ducourneau-4b479219a/",
                     }}
                   >
-                    <LinkedIn width={25} height={25} />
+                    <LinkedIn width={30} height={30} />
                   </NavLink>
                 </li>
                 <Line />
