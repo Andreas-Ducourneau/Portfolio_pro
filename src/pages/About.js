@@ -110,14 +110,14 @@ export default function About() {
           </div>
           <div className="about__info__items">
             <div className="about__info__item">
-              <h1 className="about__info__heading">Education</h1>
+              <h1 className="about__info__heading">Expériences</h1>
 
               <AboutInfoItem
                 title="School"
                 items={['Nasirabad Govt. High School, Chattogram']}
               />
               <AboutInfoItem
-                title="Collage"
+                title="Chef de Projet Junior"
                 items={['BAF Shaheen College Chattogram']}
               />
               <AboutInfoItem
@@ -126,19 +126,19 @@ export default function About() {
               />
             </div>
             <div className="about__info__item">
-              <h1 className="about__info__heading">My Skills</h1>
+              <h1 className="about__info__heading">Compétences</h1>
 
               <AboutInfoItem
-                title="FrontEnd"
-                items={['HTML', 'CSS', 'JavaScript', 'REACT']}
+                title="Programmation"
+                items={['C#', 'C', 'Java', 'C++', 'Unreal Engine']}
               />
               <AboutInfoItem
-                title="BackEnd"
-                items={['Node', 'Express', 'PHP']}
+                title="Web"
+                items={['HTML', 'CSS', 'PHP', 'REACT', 'ANGULAR']}
               />
               <AboutInfoItem
-                title="Design"
-                items={['Photoshop', 'After Effects', 'Figma']}
+                title="System / BDD"
+                items={['Linux', 'Windows', 'MySQL', 'PostgreSQL']}
               />
             </div>
             <div className="about__info__item">
@@ -146,7 +146,7 @@ export default function About() {
 
               <AboutInfoItem
                 title="2020-2023"
-                items={['Cycle Ingénieur spécialité informatique | Bac+5']}
+                items={['Cycle Ingénieur spécialité informatique | Bac +5']}
               />
               <AboutInfoItem
                 title="2018-2020"
