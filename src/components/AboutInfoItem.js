@@ -1,6 +1,5 @@
 import React from 'react';
 import styled from 'styled-components';
-import PText from './PText';
 
 const AboutItemStyles = styled.div`
   display: flex;
@@ -16,12 +15,16 @@ const AboutItemStyles = styled.div`
     display: flex;
     gap: 1.5rem;
     position: absolute;
-    left: 18rem;
+    left: 25rem;
   }
   .item {
     background-color: var(--deep-dark);
     padding: 1rem;
     border-radius: 8px;
+    max-width: 1000px;
+    margin: 0 auto;
+    font-size: 1.8rem;
+    line-height: 1.3em;
   }
   @media only screen and (max-width: 768px) {
     flex-direction: column;
@@ -47,7 +50,7 @@ export default function AboutInfoItem({
       <div className="items">
         {items.map((item, index) => (
           <div className="item" key={index}>
-            <PText>{item}</PText>
+            <p>{item}</p>
           </div>
         ))}
       </div>
