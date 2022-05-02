@@ -1,9 +1,9 @@
-import React from 'react';
-import styled from 'styled-components';
-import Button from './Button';
-import PText from './PText';
-import SectionTitle from './SectionTitle';
-import AboutImg from '../assets/images/about-sec-img.png';
+import React from "react";
+import styled from "styled-components";
+import Button from "./Button";
+import PText from "./PText";
+import SectionTitle from "./SectionTitle";
+import AboutImg from "../assets/images/about-sec-img.png";
 
 const AboutSectionStyles = styled.div`
   padding: 10rem 0;
@@ -76,13 +76,13 @@ export default function AboutSection() {
       <div className="container">
         <div className="aboutSection__left">
           <SectionTitle
-            subheading="Let me introduce myself"
-            heading="About Me"
+            subheading="Laissez moi me présenter"
+            heading="A propos de moi"
           />
           <PText>
-            Etudiant ingénieur Informatique en cinquième année à
-            CESI Bordeaux, je recherche un contrat de professionnalisation
-            dans le domaine du développement.
+            Etudiant ingénieur Informatique en cinquième année à CESI Bordeaux,
+            je recherche un contrat de professionnalisation dans le domaine du
+            développement.
           </PText>
           <div className="aboutSection__buttons">
             <Button btnText="Works" btnLink="/projects" />

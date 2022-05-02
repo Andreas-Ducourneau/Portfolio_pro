@@ -1,10 +1,10 @@
-import React from 'react';
-import styled from 'styled-components';
-import PText from '../components/PText';
-import Button from '../components/Button';
-import AboutImg from '../assets/images/about-page-img.png';
-import AboutInfoItem from '../components/AboutInfoItem';
-import ContactBanner from '../components/ContactBanner';
+import React from "react";
+import styled from "styled-components";
+import PText from "../components/PText";
+import Button from "../components/Button";
+import AboutImg from "../assets/images/Andréas4.jpg";
+import AboutInfoItem from "../components/AboutInfoItem";
+import ContactBanner from "../components/ContactBanner";
 
 const AboutPageStyles = styled.div`
   padding: 20rem 0 10rem 0;
@@ -114,15 +114,15 @@ export default function About() {
 
               <AboutInfoItem
                 title="School"
-                items={['Nasirabad Govt. High School, Chattogram']}
+                items={["Nasirabad Govt. High School, Chattogram"]}
               />
               <AboutInfoItem
                 title="Chef de Projet Junior"
-                items={['BAF Shaheen College Chattogram']}
+                items={["BAF Shaheen College Chattogram"]}
               />
               <AboutInfoItem
                 title="Varsity"
-                items={['University Of Chitiagong']}
+                items={["University Of Chitiagong"]}
               />
             </div>
             <div className="about__info__item">
@@ -130,15 +130,15 @@ export default function About() {
 
               <AboutInfoItem
                 title="Programmation"
-                items={['C#', 'C', 'Java', 'C++', 'Unreal Engine']}
+                items={["C#", "C", "Java", "C++", "Unreal Engine"]}
               />
               <AboutInfoItem
                 title="Web"
-                items={['HTML', 'CSS', 'PHP', 'REACT', 'ANGULAR']}
+                items={["HTML", "CSS", "PHP", "REACT", "ANGULAR"]}
               />
               <AboutInfoItem
                 title="System / BDD"
-                items={['Linux', 'Windows', 'MySQL', 'PostgreSQL']}
+                items={["Linux", "Windows", "MySQL", "PostgreSQL"]}
               />
             </div>
             <div className="about__info__item">
@@ -146,15 +146,17 @@ export default function About() {
 
               <AboutInfoItem
                 title="2020-2023"
-                items={['Cycle Ingénieur spécialité informatique | Bac +5']}
+                items={["Cycle Ingénieur spécialité informatique | Bac +5"]}
               />
               <AboutInfoItem
                 title="2018-2020"
-                items={[' Cycle préparatoire en informatique - Pédagogie Active | Bac +2']}
+                items={[
+                  " Cycle préparatoire en informatique - Pédagogie Active | Bac +2",
+                ]}
               />
               <AboutInfoItem
                 title="2018"
-                items={['Lycée Jules Supervielle - Oloron St-Marie']}
+                items={["Lycée Jules Supervielle - Oloron St-Marie"]}
               />
             </div>
           </div>
