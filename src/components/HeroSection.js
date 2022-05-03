@@ -175,7 +175,7 @@ export default function HeroSection() {
               Bordeaux, je recherche un contrat de professionnalisation dans le
               domaine du développement.
             </PText>
-            <Button btnText="Curriculum Vitae" btnLink="/projects" />
+            <Button btnText="Curriculum Vitae" btnLink="../assets/data/ANDREASCV.pdf" />
           </div>
           <div className="hero__social">
             <div className="hero__social__text">

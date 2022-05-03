@@ -5,6 +5,7 @@ import Button from "../components/Button";
 import AboutImg from "../assets/images/Andréas4.jpg";
 import AboutInfoItem from "../components/AboutInfoItem";
 import ContactBanner from "../components/ContactBanner";
+import Pdf from "../assets/data/ANDREASCV.pdf";
 
 const AboutPageStyles = styled.div`
   padding: 20rem 0 10rem 0;
@@ -32,6 +33,16 @@ const AboutPageStyles = styled.div`
   .about__heading {
     font-size: 3.6rem;
     margin-bottom: 3rem;
+  }
+  .zezaezeza {
+    font-size: 2.2rem;
+    background-color: ${(props) =>
+      props.outline ? 'transperant' : 'var(--gray-1)'};
+    padding: 0.7em 2em;
+    border: 2px solid var(--gray-1);
+    border-radius: 8px;
+    display: inline-block;
+    color: ${(props) => (props.outline ? 'var(--gary-1)' : 'black')};
   }
   .about__info {
     margin-bottom: 4rem;
@@ -80,29 +91,28 @@ export default function About() {
           <div className="top-section">
             <div className="left">
               <p className="about__subheading">
-                Hi, I am <span>Andréas Ducourneau</span>
+                Salut, je m'appelle<span>Andréas Ducourneau</span>
               </p>
-              <h2 className="about__heading">A freelance Web developer</h2>
+              <h2 className="about__heading">Etudiant en dernière année de cycle d'Ingénieur</h2>
               <div className="about__info">
                 <PText>
-                  I am from chittagong, Bangladesh. A place of beauty and
-                  nature. Since my childhood, i love art and design. I always
-                  try to design stuff with my unique point of view. I also love
-                  to create things that can be usefull to others.
+                  Actuellement en 4ème année au CESI de Bordeaux en spécialité informatique, 
+                  je suis à la recherche d'un contrat de professionnalisation dans le domaine 
+                  du management, mais également de la programmation d'application. 
                   <br /> <br />
-                  I started coding since I was in high school. Coding is also an
-                  art for me. I love it and now I have the opportunity to design
-                  along with the coding. I find it really interesting and I
-                  enjoyed the process a lot.
-                  <br />
-                  <br />
+                  A la suite de mes différents stages précisés dans mon curriculum vitae j'ai eu 
+                  l'occasion de travailler en équipe la plupart du temps en méthodologie Agile pour 
+                  permettre la confrontation des idées et aboutir ensemble à un consensus et donc à 
+                  la résolution des problèmes proposés tout en bâtissant un solide socle de compétences 
+                  en informatique et également en management.
+                  <br /> <br />
                   My vision is to make the world a better place. Now almost
                   everything is becoming better than ever. It is time for us to
                   create more good stuff that helps the world to become a better
                   place.
                 </PText>
               </div>
-              <Button btnText="Download CV" btnLink="#" />
+              <a className="zezaezeza" href={Pdf} target= "_blank">Download CV</a>
             </div>
             <div className="right">
               <img src={AboutImg} alt="me" />
@@ -113,7 +123,7 @@ export default function About() {
               <h1 className="about__info__heading">Expériences</h1>
 
               <AboutInfoItem
-                title="School"
+                title="Ingénieur Concepteur Développeur – Back-End"
                 items={["Nasirabad Govt. High School, Chattogram"]}
               />
               <AboutInfoItem
@@ -121,7 +131,7 @@ export default function About() {
                 items={["BAF Shaheen College Chattogram"]}
               />
               <AboutInfoItem
-                title="Varsity"
+                title="Full Stack Développeur"
                 items={["University Of Chitiagong"]}
               />
             </div>
