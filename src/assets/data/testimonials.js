@@ -1,27 +1,27 @@
 const testimonials = [
   {
     id: 1,
-    name: 'Shaif Arfan',
-    title: 'CEO',
-    org: 'WEB CIFAR',
+    name: 'Nicolas DAGUISE',
+    title: 'CTO',
+    org: 'SINGULAR',
     desc:
-      'Person of commitment. He is really good at what he is doing. I really like his work. Especially the unique point of view of designing.',
+      "Très bon contact et communication avec l'équipe. Bonne organisation et capacités à travailler sur un projet à plusieurs et à prendre en compte les remarques et changement de priorité.",
   },
   {
     id: 2,
-    name: 'Fahim Elahe',
-    title: 'Co-founder',
-    org: 'Kreetive',
+    name: 'Philippe LATREMOLIERE',
+    title: 'Chef de projet',
+    org: 'SQLI',
     desc:
-      'Really amazing communication skills. Always understand what I am trying to achieve. Also, his work is really amazing. Do really high-quality work.',
+      "Andréas est un collaborateur agréable, d’humeur égale et qui fait preuve d’une curiosité bienvenue dans le contexte fonctionnel et technique complexe du projet sur lequel il est intervenu. Andréas a su communiquer, aussi bien pour aller chercher les réponses que pour expliquer ses réalisations. Ses questions sont pertinentes et son intégration dans l’équipe projet est de qualité.",
   },
   {
     id: 3,
-    name: 'Sayed',
-    title: 'Marketing Head',
-    org: 'Eleven Dawn',
+    name: 'Zeineb EL KHALFI',
+    title: 'Enseignant Informatique',
+    org: "CESI Ecole d'Ingénieur",
     desc:
-      'Really hard-working person. Deliver the work as promised. Planning to work more with this person.',
+      "Comme l’attestent ses bulletins, cet étudiant est assidu et efficace dans tout ce qu’il entreprend. Il s’est démarqué, en plus de ses compétences techniques, par sa maturité et son professionnalisme, ceci malgré son jeune âge. Une qualité majeure d’Andréas DUCOURNEAU, est certes son charisme grâce à son aisance oratoire et sa capacité d’expression et de communication, dans les situations professionnelles (en soutenances, entretiens, etc.).",
   },
 ];
 export default testimonials;

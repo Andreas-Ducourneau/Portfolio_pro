@@ -41,6 +41,9 @@ const HeroStyles = styled.div`
   }
   .hero__info {
     margin-top: -18rem;
+    p {
+      color: white;
+    }
   }
   .hero__social,
   .hero__scrollDown {
@@ -87,6 +90,9 @@ const HeroStyles = styled.div`
           font-size: 1.6rem;
           letter-spacing: 5px;
           margin-bottom: 2rem;
+        }
+        svg{
+          fill: white;
         }
       }
     }
@@ -157,7 +163,7 @@ export default function HeroSection() {
       <div className="hero">
         <div className="container">
           <h1 className="hero__heading">
-            <span>Hello There, I'm</span>
+            <span>Salut, je m'appelle</span>
             <span className="hero__name">Andréas Ducourneau</span>
           </h1>
           <div className="hero__img">
@@ -169,7 +175,7 @@ export default function HeroSection() {
               Bordeaux, je recherche un contrat de professionnalisation dans le
               domaine du développement.
             </PText>
-            <Button btnText="Curriculum Vitae" btnLink="/projects" />
+            <Button btnText="Curriculum Vitae" btnLink="../assets/data/ANDREASCV.pdf" />
           </div>
           <div className="hero__social">
             <div className="hero__social__text">
