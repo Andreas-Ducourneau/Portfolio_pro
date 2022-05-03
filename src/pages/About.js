@@ -34,7 +34,7 @@ const AboutPageStyles = styled.div`
     font-size: 3.6rem;
     margin-bottom: 3rem;
   }
-  .zezaezeza {
+  .ButtonDown {
     font-size: 2.2rem;
     background-color: ${(props) =>
       props.outline ? 'transperant' : 'var(--gray-1)'};
@@ -91,7 +91,7 @@ export default function About() {
           <div className="top-section">
             <div className="left">
               <p className="about__subheading">
-                Salut, je m'appelle<span>Andréas Ducourneau</span>
+                Salut, je m'appelle <span>Andréas Ducourneau</span>
               </p>
               <h2 className="about__heading">Etudiant en dernière année de cycle d'Ingénieur</h2>
               <div className="about__info">
@@ -112,7 +112,7 @@ export default function About() {
                   place.
                 </PText>
               </div>
-              <a className="zezaezeza" href={Pdf} target= "_blank">Download CV</a>
+              <a className="ButtonDown" href={Pdf} target= "_blank">Download CV</a>
             </div>
             <div className="right">
               <img src={AboutImg} alt="me" />
@@ -124,15 +124,15 @@ export default function About() {
 
               <AboutInfoItem
                 title="Ingénieur Concepteur Développeur – Back-End"
-                items={["Nasirabad Govt. High School, Chattogram"]}
+                items={["Développement d’un nouveau module pour la réalisation des visites de postes techniques du patrimoine RTE "]}
               />
               <AboutInfoItem
                 title="Chef de Projet Junior"
-                items={["BAF Shaheen College Chattogram"]}
+                items={["Conception et développement de l'application DeepDive qui présente des corrélations entre les facteurs environnementaux et les défauts sur les pales des éoliennes"]}
               />
               <AboutInfoItem
                 title="Full Stack Développeur"
-                items={["University Of Chitiagong"]}
+                items={["Développer de nouveaux outils pour l'analyse des sites de parcs éoliens et la visualisation des données"]}
               />
             </div>
             <div className="about__info__item">

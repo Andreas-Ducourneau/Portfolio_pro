@@ -7,15 +7,16 @@ const AboutItemStyles = styled.div`
   justify-content: flex-start;
   position: relative;
   /* gap: 5rem; */
-  margin-top: 3rem;
+  margin-top: 4rem;
   .title {
     font-size: 2.4rem;
+    max-width: 280px;
   }
   .items {
     display: flex;
     gap: 1.5rem;
     position: absolute;
-    left: 25rem;
+    left: 30rem;
   }
   .item {
     background-color: var(--deep-dark);
