@@ -41,6 +41,9 @@ const HeroStyles = styled.div`
   }
   .hero__info {
     margin-top: -18rem;
+    p {
+      color: white;
+    }
   }
   .hero__social,
   .hero__scrollDown {
@@ -87,6 +90,9 @@ const HeroStyles = styled.div`
           font-size: 1.6rem;
           letter-spacing: 5px;
           margin-bottom: 2rem;
+        }
+        svg{
+          fill: white;
         }
       }
     }

@@ -1,19 +1,19 @@
 const testimonials = [
   {
     id: 1,
-    name: 'Shaif Arfan',
-    title: 'CEO',
-    org: 'WEB CIFAR',
+    name: 'Nicolas DAGUISE',
+    title: 'CTO',
+    org: 'SINGULAR',
     desc:
-      'Person of commitment. He is really good at what he is doing. I really like his work. Especially the unique point of view of designing.',
+      "Très bon contact et communication avec l'équipe. Bonne organisation et capacités à travailler sur un projet à plusieurs et à prendre en compte les remarques et changement de priorité.",
   },
   {
     id: 2,
-    name: 'Fahim Elahe',
-    title: 'Co-founder',
-    org: 'Kreetive',
+    name: 'Philippe LATREMOLIERE',
+    title: 'Chef de projet',
+    org: 'SQLI',
     desc:
-      'Really amazing communication skills. Always understand what I am trying to achieve. Also, his work is really amazing. Do really high-quality work.',
+      "Andréas est un collaborateur agréable, d’humeur égale et qui fait preuve d’une curiosité bienvenue dans le contexte fonctionnel et technique complexe du projet sur lequel il est intervenu. Andréas a su communiquer, aussi bien pour aller chercher les réponses que pour expliquer ses réalisations. Ses questions sont pertinentes et son intégration dans l’équipe projet est de qualité.",
   },
   {
     id: 3,
