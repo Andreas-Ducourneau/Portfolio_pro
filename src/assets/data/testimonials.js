@@ -17,11 +17,11 @@ const testimonials = [
   },
   {
     id: 3,
-    name: 'Sayed',
-    title: 'Marketing Head',
-    org: 'Eleven Dawn',
+    name: 'Zeineb EL KHALFI',
+    title: 'Enseignant Informatique',
+    org: "CESI Ecole d'Ingénieur",
     desc:
-      'Really hard-working person. Deliver the work as promised. Planning to work more with this person.',
+      "Comme l’attestent ses bulletins, cet étudiant est assidu et efficace dans tout ce qu’il entreprend. Il s’est démarqué, en plus de ses compétences techniques, par sa maturité et son professionnalisme, ceci malgré son jeune âge. Une qualité majeure d’Andréas DUCOURNEAU, est certes son charisme grâce à son aisance oratoire et sa capacité d’expression et de communication, dans les situations professionnelles (en soutenances, entretiens, etc.).",
   },
 ];
 export default testimonials;
