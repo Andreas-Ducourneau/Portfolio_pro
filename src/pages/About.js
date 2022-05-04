@@ -36,12 +36,12 @@ const AboutPageStyles = styled.div`
   .ButtonDown {
     font-size: 2.2rem;
     background-color: ${(props) =>
-      props.outline ? 'transperant' : 'var(--gray-1)'};
+      props.outline ? "transperant" : "var(--gray-1)"};
     padding: 0.7em 2em;
     border: 2px solid var(--gray-1);
     border-radius: 8px;
     display: inline-block;
-    color: ${(props) => (props.outline ? 'var(--gary-1)' : 'black')};
+    color: ${(props) => (props.outline ? "var(--gary-1)" : "black")};
   }
   .about__info {
     margin-bottom: 4rem;
@@ -92,26 +92,33 @@ export default function About() {
               <p className="about__subheading">
                 Salut, je m'appelle <span>Andréas Ducourneau</span>
               </p>
-              <h2 className="about__heading">Etudiant en dernière année de cycle d'Ingénieur</h2>
+              <h2 className="about__heading">
+                Etudiant en dernière année de cycle d'Ingénieur
+              </h2>
               <div className="about__info">
                 <PText>
-                  Actuellement en 4ème année au CESI de Bordeaux en spécialité informatique, 
-                  je suis à la recherche d'un contrat de professionnalisation dans le domaine 
-                  du management, mais également de la programmation d'application. 
+                  Actuellement en 4ème année au CESI de Bordeaux en spécialité
+                  informatique, je suis à la recherche d'un contrat de
+                  professionnalisation dans le domaine du management, mais
+                  également de la programmation d'application.
                   <br /> <br />
-                  A la suite de mes différents stages précisés dans mon curriculum vitae j'ai eu 
-                  l'occasion de travailler en équipe la plupart du temps en méthodologie Agile pour 
-                  permettre la confrontation des idées et aboutir ensemble à un consensus et donc à 
-                  la résolution des problèmes proposés tout en bâtissant un solide socle de compétences 
-                  en informatique et également en management.
+                  A la suite de mes différents stages précisés dans mon
+                  curriculum vitae j'ai eu l'occasion de travailler en équipe la
+                  plupart du temps en méthodologie Agile pour permettre la
+                  confrontation des idées et aboutir ensemble à un consensus et
+                  donc à la résolution des problèmes proposés tout en bâtissant
+                  un solide socle de compétences en informatique et également en
+                  management.
                   <br /> <br />
-                  My vision is to make the world a better place. Now almost
-                  everything is becoming better than ever. It is time for us to
-                  create more good stuff that helps the world to become a better
-                  place.
+                  Rigoureux, calme et appliqué ; ma vision des choses et de
+                  travailler dans un environnement agréable et de partager mes
+                  idées avec l'ensemble des personnes que je rencontre. C'est le
+                  moment pour nous de faire de belles choses !
                 </PText>
               </div>
-              <a className="ButtonDown" href={Pdf} target= "_blank">Download CV</a>
+              <a className="ButtonDown" href={Pdf} target="_blank">
+                Download CV
+              </a>
             </div>
             <div className="right">
               <img src={AboutImg} alt="me" />
@@ -123,15 +130,21 @@ export default function About() {
 
               <AboutInfoItem
                 title="Ingénieur Concepteur Développeur – Back-End"
-                items={["Développement d’un nouveau module pour la réalisation des visites de postes techniques du patrimoine RTE "]}
+                items={[
+                  "Développement d’un nouveau module pour la réalisation des visites de postes techniques du patrimoine RTE ",
+                ]}
               />
               <AboutInfoItem
                 title="Chef de Projet Junior"
-                items={["Conception et développement de l'application DeepDive qui présente des corrélations entre les facteurs environnementaux et les défauts sur les pales des éoliennes"]}
+                items={[
+                  "Conception et développement de l'application DeepDive qui présente des corrélations entre les facteurs environnementaux et les défauts sur les pales des éoliennes",
+                ]}
               />
               <AboutInfoItem
                 title="Full Stack Développeur"
-                items={["Développer de nouveaux outils pour l'analyse des sites de parcs éoliens et la visualisation des données"]}
+                items={[
+                  "Développer de nouveaux outils pour l'analyse des sites de parcs éoliens et la visualisation des données",
+                ]}
               />
             </div>
             <div className="about__info__item">
