@@ -116,7 +116,7 @@ export default function About() {
                   moment pour nous de faire de belles choses !
                 </PText>
               </div>
-              <a className="ButtonDown" href={Pdf} target="_blank">
+              <a className="ButtonDown" href={Pdf}>
                 Download CV
               </a>
             </div>

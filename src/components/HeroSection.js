@@ -35,12 +35,12 @@ const HeroStyles = styled.div`
   .ButtonDown {
     font-size: 2.2rem;
     background-color: ${(props) =>
-      props.outline ? 'transperant' : 'var(--gray-1)'};
+      props.outline ? "transperant" : "var(--gray-1)"};
     padding: 0.7em 2em;
     border: 2px solid var(--gray-1);
     border-radius: 8px;
     display: inline-block;
-    color: ${(props) => (props.outline ? 'var(--gary-1)' : 'black')};
+    color: ${(props) => (props.outline ? "var(--gary-1)" : "black")};
   }
   .hero__img {
     max-width: 900px;
@@ -101,7 +101,7 @@ const HeroStyles = styled.div`
           letter-spacing: 5px;
           margin-bottom: 2rem;
         }
-        svg{
+        svg {
           fill: white;
         }
       }
@@ -185,7 +185,9 @@ export default function HeroSection() {
               Bordeaux, je recherche un contrat de professionnalisation dans le
               domaine du développement.
             </PText>
-            <a className="ButtonDown" href={Pdf} target= "_blank">Curriculum Vitae</a>
+            <a className="ButtonDown" href={Pdf}>
+              Curriculum Vitae
+            </a>
           </div>
           <div className="hero__social">
             <div className="hero__social__text">
