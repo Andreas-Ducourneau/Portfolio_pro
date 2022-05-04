@@ -2,10 +2,10 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import styled from "styled-components";
 import oim from "../assets/images/Andréas2.jpg";
-import Button from "./Button";
 import ScrollDownArrow from "../assets/images/scroll-down-arrow.svg";
 import { Github, LinkedIn } from "../assets/data/AllSvgs";
 import PText from "./PText";
+import Pdf from "../assets/data/ANDREASCV.pdf";
 
 const HeroStyles = styled.div`
   .hero {
@@ -31,6 +31,16 @@ const HeroStyles = styled.div`
       font-size: 7rem;
       color: var(--white);
     }
+  }
+  .ButtonDown {
+    font-size: 2.2rem;
+    background-color: ${(props) =>
+      props.outline ? "transperant" : "var(--gray-1)"};
+    padding: 0.7em 2em;
+    border: 2px solid var(--gray-1);
+    border-radius: 8px;
+    display: inline-block;
+    color: ${(props) => (props.outline ? "var(--gary-1)" : "black")};
   }
   .hero__img {
     max-width: 900px;
@@ -91,7 +101,7 @@ const HeroStyles = styled.div`
           letter-spacing: 5px;
           margin-bottom: 2rem;
         }
-        svg{
+        svg {
           fill: white;
         }
       }
@@ -175,7 +185,9 @@ export default function HeroSection() {
               Bordeaux, je recherche un contrat de professionnalisation dans le
               domaine du développement.
             </PText>
-            <Button btnText="Curriculum Vitae" btnLink="../assets/data/ANDREASCV.pdf" />
+            <a className="ButtonDown" href={Pdf}>
+              Curriculum Vitae
+            </a>
           </div>
           <div className="hero__social">
             <div className="hero__social__text">
