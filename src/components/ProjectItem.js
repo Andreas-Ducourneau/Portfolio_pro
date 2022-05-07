@@ -1,7 +1,7 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import styled from 'styled-components';
-import ProjectImg from '../assets/images/projectImg.png';
+import React from "react";
+import { Link } from "react-router-dom";
+import styled from "styled-components";
+import ProjectImg from "../assets/images/projectImg.png";
 
 const ProjectItemStyles = styled.div`
   .projectItem__img {
@@ -26,7 +26,7 @@ const ProjectItemStyles = styled.div`
   }
   .projectItem__desc {
     font-size: 1.6rem;
-    font-family: 'RobotoMono Regular';
+    font-family: "RobotoMono Regular";
     margin-top: 1rem;
   }
   @media only screen and (max-width: 768px) {
@@ -34,12 +34,20 @@ const ProjectItemStyles = styled.div`
       height: 350px;
     }
   }
+  .projectButton {
+    display: inline-block;
+    font-size: 1.8rem;
+    text-decoration: underline;
+    margin: 2rem 0;
+    color: royalblue;
+  }
 `;
 
 export default function ProjectItem({
   img = ProjectImg,
-  title = 'Project Name',
-  desc = 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+  title = "Project Name",
+  desc = "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+  link,
 }) {
   return (
     <ProjectItemStyles>
@@ -51,6 +59,11 @@ export default function ProjectItem({
           <h3 className="projectItem__title">{title}</h3>
         </Link>
         <p className="projectItem__desc">{desc}</p>
+        {link && (
+          <a className="projectButton" href={link}>
+            Open Project
+          </a>
+        )}
       </div>
     </ProjectItemStyles>
   );
