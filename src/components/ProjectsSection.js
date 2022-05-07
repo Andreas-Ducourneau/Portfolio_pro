@@ -1,11 +1,11 @@
-import React from 'react';
-import styled from 'styled-components';
-import { Swiper, SwiperSlide } from 'swiper/react';
-import SwiperCore, { Navigation } from 'swiper';
-import ProjectItem from './ProjectItem';
-import SectionTitle from './SectionTitle';
-import 'swiper/swiper-bundle.min.css';
-import projects from '../assets/data/projects';
+import React from "react";
+import styled from "styled-components";
+import { Swiper, SwiperSlide } from "swiper/react";
+import SwiperCore, { Navigation } from "swiper";
+import ProjectItem from "./ProjectItem";
+import SectionTitle from "./SectionTitle";
+import "swiper/swiper-bundle.min.css";
+import projects from "../assets/data/projects";
 
 // install Swiper modules
 SwiperCore.use([Navigation]);
@@ -61,7 +61,10 @@ export default function ProjectsSection() {
   return (
     <ProjectSectionStyle>
       <div className="container">
-        <SectionTitle subheading="Quelques-uns de mes récents projets" heading="Projects" />
+        <SectionTitle
+          subheading="Quelques-uns de mes récents projets"
+          heading="Projects"
+        />
         <div className="projects__allItems">
           <Swiper
             spaceBetween={30}
@@ -90,6 +93,7 @@ export default function ProjectsSection() {
                     title={project.name}
                     img={project.img}
                     desc={project.desc}
+                    link={project.link}
                   />
                 </SwiperSlide>
               );
